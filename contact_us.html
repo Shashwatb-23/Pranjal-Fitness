@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>contact-us</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .right {
+            position: absolute;
+            right: 0;
+            top: 0px;
+            margin: 22px;
+            display: inline-block;
+            /* border: 10px solid burlywood; */
+        }
+    
+        .right img {
+            width: 83px;
+            filter: invert(100%);
+        }
+    
+        .right div {
+            text-align: center;
+            font-size: 12px;
+        }
+        .bg-image {
+            /* The image used */
+            background-image: url("Img/benjamin-klaver-e08l4Ny-0eg-unsplash.jpg");
+
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* Position text in the middle of the page/image */
+        .bg-text {
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/opacity/see-through */
+            color: white;
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            height: 100p;
+            padding: 20px;
+            text-align: left;
+        }
+        .bg-text h3{
+            color: brown;
+        }
+        .bg-text p{
+            font-size: 18px;
+            margin: 30px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="bg-image"></div>
+    <header class="header">
+        <!-- Right for Logo -->
+        <div class="right">
+            <a href="index.html"><img
+                    src="Img/Gym Logo Silhouette PNG Images, Gym Logo, Muscle Clipart, Fitness, Gym PNG Image For Free Download.jpg"
+                    alt=""></a>
+            <div><strong>Pranjal Fitness</strong></div>
+    </header>
+    <div class="bg-text">
+        <form action="contactus.php">
+            <ul type="square">
+                <li>
+                    <h3>Company Name:</h3>
+                </li>
+            </ul>
+            <p>Pranjal Fitness Gym.</p>
+
+
+
+            <ul type="square">
+                <li>
+                    <h3>Description:</h3>
+                </li>
+            </ul>
+            <p>Experience transformative fitness at Pranjal Fitness Gym, where passion meets performance. Our
+                dedicated space offers tailored workouts, expert coaching, and a supportive community. Ignite your
+                journey to wellness with top-notch equipment and personalized training.
+                <ul type="square">
+                    <li>
+                        <h3>Pranjal Fitness Gym:</h3>
+                    </li>
+                </ul>   
+                <p>Elevating lives, one workout at a time.</p>
+
+            <ul type="square">
+                <li>
+                    <h3>Tagline:</h3>
+                </li>
+            </ul>
+            <p>Repurpose User-Centric Communities.</p>
+
+            <ul type="square">
+                <li>
+                    <h3> Company Email:</h3>
+                </li>
+            </ul>
+            <p>pranjalfitness@gym.com</p>
+            <ul type="square">
+                <li>
+                    <h3>Contact No. :</h3>
+                </li>
+            </ul>
+            <p>5xxxxxxx5</p>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
